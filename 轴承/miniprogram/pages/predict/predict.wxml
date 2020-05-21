@@ -1,0 +1,11 @@
+<view class="content">
+<image class='background' src="../../images/background.png" mode="aspectFill"></image>
+
+<text class='textstyle'>故障预测</text>
+<view class='fillet'>
+
+<image src="../../images/zhou.jpg" class="img"></image>
+
+<van-button round color="linear-gradient(to right, #668bd8, #394aba)" custom-class="btn" bind:click="gotopredict">开始故障预测</van-button>
+</view>
+</view>

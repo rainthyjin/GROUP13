@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="content">
+<image class='background' src="../../images/background.png" mode="aspectFill"></image>
+<text class='textstyle'>机组预览</text>
+<view class='fillet1'>
+<view class='timestyle'>截至{{time}}</view>
+<view class='tit'>监测机组的数量</view>
+<view class='number'>14</view>
+<van-divider borderColor="#bcbcbc" custom-style="width:90%;margin-left:5%" dashed />
+<!-- <view class='tit'>故障机组的数量</view>
+<view class='cir'>
+<van-circle value="{{ value }}" color="{{ gradientColor }}" text="{{8}}" size="100" layer-color="#ededed"/>
+</view> -->
+<!-- <van-divider borderColor="#bcbcbc" custom-style="width:90%;margin-left:5%" dashed /> -->
+<view class='tit'>设备总体运行状况</view>
+<view class="cha">
+<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+</view>
+</view>

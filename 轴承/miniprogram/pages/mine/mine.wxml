@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view class="content">
+<image class='background' src="../../images/background.png" mode="aspectFill"></image>
+
+<view class='fillet'> 
+<view class='group'>
+ <van-cell title="帮助" custom-class="colorstyle"  icon="orders-o" is-link />
+ <van-cell title="关于" custom-class="colorstyle" icon="info-o" border="{{ false }}" is-link />
+
+</view>   
+</view>
+<view class='mp-info'>
+      <open-data type="userAvatarUrl" class='icon'></open-data>
+      <open-data type="userNickName"class='mp-name'></open-data>
+     
+</view>
+</view>
+
+ 

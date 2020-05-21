@@ -1,0 +1,12 @@
+<view class="content">
+<image class='background' src="../../images/background.png" mode="aspectFill"></image>
+<text class='textstyle'>运行详情</text>
+<view class='fillet'>
+
+     <van-button square type="primary" color="#394aba" custom-class="colorstyle1" size="small" bind:click="gotopredict">故障预测</van-button>
+     <van-button square type="primary" color="#a2b9e8" custom-style="color:#283636"    custom-class="colorstyle" size="small" bind:click="gotodata">机组数据</van-button>
+     <van-button square type="primary" color="#deedfb" custom-style="color:#283636" custom-class="colorstyle" size="small">故障提醒</van-button>
+     <van-button square type="primary" color="#668bd8" custom-style="color:#283636" custom-class="colorstyle" size="small" bind:click="gotochart">统计图表</van-button>
+
+</view>
+</view>

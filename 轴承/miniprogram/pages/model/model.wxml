@@ -1,0 +1,7 @@
+<view class="content">
+<image class='background' src="../../images/background2.png" mode="aspectFill"></image>
+<text class='textstyle'>开始模型预测</text>
+<view class='fillet'>
+<van-button round color="linear-gradient(to right, #668bd8, #394aba)" custom-class="btn" bind:click="model">点击此处开始</van-button>
+</view>
+</view>

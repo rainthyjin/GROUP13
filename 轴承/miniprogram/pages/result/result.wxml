@@ -1,0 +1,8 @@
+<view class="content">
+<image class='background' src="../../images/background2.png" mode="aspectFill"></image>
+<text class='textstyle'>预测结果</text>
+<view class='fillet'>
+<view class="te">预测成功！返回首页查看</view>
+<van-button round color="linear-gradient(to right, #668bd8, #394aba)" custom-class="btn" bind:click="return">返回首页</van-button>
+</view>
+</view>

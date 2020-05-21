@@ -1,0 +1,49 @@
+<view class="content">
+<image class='background' src="../../images/background2.png" mode="aspectFill"></image>
+<text class='textstyle'>统计图表</text>
+<view class='fillet'>
+
+<van-cell-group border="{{ false }}">
+<van-cell  title="选择当前设备"  value="{{value1}}"   custom-class="cells"   bind:click="showPopup" />
+<van-cell title="诊断时间" value="{{time}}" />
+</van-cell-group>
+
+
+<van-grid column-num="4" custom-class="ebox">
+  <van-grid-item use-slot custom-class="box"><view class="gkTitle">正常</view></van-grid-item>
+  <van-grid-item use-slot custom-class="box"><view class="gkTitle">Ball </view></van-grid-item>
+  <van-grid-item use-slot custom-class="box"><view class="gkTitle">内圈故障</view></van-grid-item>
+ <van-grid-item use-slot custom-class="box"><view class="gkTitle">外圈故障</view></van-grid-item>
+   <van-grid-item use-slot custom-class="box"><view class="gkTitle">{{result0}}</view></van-grid-item>
+  <van-grid-item use-slot custom-class="box"><view class="gkTitle">{{result1}} </view></van-grid-item>
+  <van-grid-item use-slot custom-class="box"><view class="gkTitle">{{result2}}</view></van-grid-item>
+ <van-grid-item use-slot custom-class="box"><view class="gkTitle">{{result3}}</view></van-grid-item>
+</van-grid>
+<view class='tit'>故障情况饼状图</view>
+<view class="cha">
+ <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+
+
+<van-popup
+  show="{{show}}"
+  round
+  position="bottom"
+  overlay="{{ false }}"
+  bind:close="onClose"
+>
+
+<block wx:if="{{show1}}">
+<van-picker
+  show-toolbar
+  title="设备号"
+  columns="{{ columns1 }}"
+  bind:cancel="onCancel"
+  bind:confirm="onConfirm1"
+/>
+</block>
+</van-popup>
+
+
+</view>
+</view>

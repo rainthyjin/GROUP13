@@ -1,0 +1,121 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  height:100%;
+}
+
+.background {
+width: 100%;
+height: 100%;
+position:fixed; 
+background-size:100% 100%;
+z-index: -1;
+}
+
+.timestyle{
+  margin-left: 22rpx;
+  margin-top: 16rpx;
+  font-size: 25rpx;
+  color: rgba(169, 169, 169, 0.833);
+}
+.number{
+  display: flex;
+  margin-top: 30rpx;
+  justify-content:center;
+  font-size:200rpx;
+  -webkit-text-stroke: 2px rgb(8, 28, 159);
+  -webkit-text-fill-color:rgb(92, 132, 212);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tit{
+  display: flex;
+  margin-top: 18rpx;
+  justify-content:center;
+  font-size:38rpx;
+  color:rgb(14, 44, 152);
+}
+.fillet1{
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  left: 5%;
+  width:90%;
+  height:100%;
+  top: 150rpx;
+  
+  border-radius:40rpx;/*边框圆角*/
+  box-shadow: 0px 6px 20px -1px #d8d8d86b;
+  background-color:rgb(255, 255, 255);
+}
+.cir{
+  display: flex;
+  margin-top: 60rpx;
+  justify-content:center;
+  margin-bottom: 18rpx;
+}
+/* .cha{
+  margin-top: 60rpx;
+  justify-content:center;
+  height:90%;
+} */
+.cha{
+  margin-top: 60rpx;
+  display: flex;
+  position: relative;
+  justify-content:center;
+  height: 100%;
+  width: 90%;
+}
+ec-canvas {
+
+  width: 100%;
+
+  height: 100%;
+
+  }
+
+  ec-canvas {
+
+  width: 100%;
+
+  height: 100%;
+
+  }
+
+  .container {
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  box-sizing: border-box;
+
+  }
+
+  .picker-pos {
+
+  margin-top: -130rpx;
+
+  margin-left: 150rpx;
+
+  color: blueviolet;
+
+  }

@@ -1,0 +1,84 @@
+/* pages/charts/charts.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  height:100%;
+}
+
+.background {
+width: 100%;
+height: 100%;
+position:fixed; 
+background-size:100% 100%;
+z-index: -1;
+}
+
+.tit{
+  display: flex;
+  margin-top: 8%;
+  justify-content:center;
+  font-size:38rpx;
+  color:rgb(14, 44, 152);
+}
+
+.cells{
+  margin-top: 5%;
+}
+
+.box{
+  height: 65rpx;
+}
+
+.gkTitle {
+  font-size: 11px;
+  color: rgba(42, 42, 42, 0.9);
+}
+
+.ebox{
+  margin-top: 8%;
+  border-top:1px solid rgb(195, 194, 194);
+  border-bottom:1px solid rgb(195, 194, 194);
+}
+
+.cha{
+  display: flex;
+  position: relative;
+  justify-content:center;
+  height: 100%;
+  width: 100%;
+  margin-top: 4%;
+}
+
+  ec-canvas {
+
+  width: 100%;
+
+  height: 90%;
+  
+  }
+
+  .container{
+
+  position: relative;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  }
+
+ 

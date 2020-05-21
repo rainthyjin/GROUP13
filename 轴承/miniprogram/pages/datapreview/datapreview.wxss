@@ -1,0 +1,34 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  height:100%;
+}
+
+.background {
+width: 100%;
+height: 100%;
+position:fixed; 
+background-size:100% 100%;
+z-index: -1;
+}
+
+.cells{
+  margin-top: 5%;
+}
+
+.gkTitle {
+  font-size: 11px;
+  color: rgba(42, 42, 42, 0.9);
+}
+
+
+.box{
+  height: 65rpx;
+}
+.ebox{
+  margin-top: 8%;
+  border-top:1px solid rgb(195, 194, 194);
+  border-bottom:1px solid rgb(195, 194, 194);
+}

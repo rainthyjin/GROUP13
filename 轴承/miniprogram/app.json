@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/predict/predict",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/faultlibrary/faultlibrary",
+    "pages/datapreview/datapreview",
+    "pages/dataprocessing/dataprocessing",
+    "pages/model/model",
+    "pages/result/result",
+    "pages/charts/charts"
+  ],
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#283797",
+    "navigationBarTitleText": "轴承监测",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "van-cell": "../../dist/cell/index",
+    "van-cell-group": "../../dist/cell-group/index",
+    "van-button": "../../dist/button/index",
+    "van-icon": "../../dist/icon/index",
+    "van-divider": "../../dist/divider/index",
+    "van-circle": "../../dist/circle/index",
+    "van-picker": "../../dist/picker/index",
+    "van-popup": "../../dist/popup/index",
+    "van-grid": "../../dist/grid/index",
+    "van-grid-item": "../../dist/grid-item/index",
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  },
+  "tabBar": {
+    "selectedColor": "#283797",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/predict/predict",
+        "iconPath": "images/dliuchengguanli.png",
+        "selectedIconPath": "images/liuchengguanli.png",
+        "text": "故障预测"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/dxiangmu.png",
+        "selectedIconPath": "images/xiangmu.png",
+        "text": "机组预览"
+      },
+
+      {
+        "pagePath": "pages/faultlibrary/faultlibrary",
+        "iconPath": "images/drenwuliebiao.png",
+        "selectedIconPath": "images/renwuliebiao.png",
+        "text": "运行详情"
+      },
+  
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/dzhanghaosvg.png",
+        "selectedIconPath": "images/zhanghaosvg.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
